@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap');
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    margin:0;
+    background-color:#f5f8ff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h2{
+   
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    letter-spacing: 10px;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color:#182740;
+    text-shadow:0 2px 4px;
+}
+
+#pad{
+    color:#f5d889;
+    text-shadow:0 2px 4px #7a7a7a ;
+}
+
+#data_input{
+    text-align: center;
+    display:inline-block;
+    width: 350px;
+    line-height: 60px;
+    font-size: 20px;
+    border-color:#2f4569;
+    border-radius: 10px;
+    margin-right: 30px;
+    outline: none;
+}
+ .data_input{
+    text-align: center;
+    display:inline-block;
+    line-height: 26px;
+    width: 140px;
+    font-size: 30px;
+    border-color:#2f4569;
+    border-radius: 10px;
+    margin-right: 30px;
+    outline: none; 
+ }
+
+#button{
+    padding: 20px;
+    border-radius: 10px;
+    background-color:#2f4569;
+    color:white;
+    border-color: #2f4569;
+    box-shadow: 0 4px 3px #a5aaad;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    letter-spacing: 3px;
+    outline: none;
+    border: none;
+}
+
+#list_wrapper{
+   background-color:white;
+   display:flex;
+   justify-content: center;
+   align-items:center;
+   padding: 40px;
+   margin: 30px auto;
+   width: 350px;
+   border-radius: 10px;
+   box-shadow: 0 2px 4px #a5aaad;
+}
+
+.list_item{
+    box-shadow: 0 0 8px #ccc;
+    padding: 20px 36px;
+    margin: 12px 0;
+    border-radius: 6px;
+    background-color:white;
+    color: #2f4569;
+    font-weight: bold;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_item:hover{
+    background-color:#fff7eb;
+    transition: .3s ease-in;
+}
+#list_data{
+    width: 430px;
+    margin: 0 auto;
+    
+}
+
+.date_time{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.delete_icon{
+    cursor: pointer;
+}
